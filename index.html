@@ -9,9 +9,10 @@
       <h1>Welcome to Quizee.org</h1>
       <h3>Customize Quiz</h3>
       <div class="customize-section">
+        <form id="customize-form">
         <div>
           <h3>Select Subject</h3>
-          <select id="subject-selection">
+          <select id="subject-selection" name="subject">
             <option>Science</option>
             <option>Engineering</option>
             <option>ICT</option>
@@ -22,16 +23,19 @@
 
         <div>
             <h3>Number of Questions</h3>
-            <input type="number" placeholder="Questions" id="question-count">
+            <input type="number" placeholder="Questions" id="question-count" name="question-count">
         </div>
 
         <div>
             <h3>Time Duration</h3>
-            <input type="number" placeholder="mins" id="duration">
+            <input type="number" placeholder="mins" id="duration" name="duration">
         </div>
         <br>
-        <button onclick="GetData()">Start Quiz</button>
+        <button type="submit">Start Quiz</button>
       </div>
+      </form>
     </div>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>
