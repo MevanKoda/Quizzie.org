@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Quizze.org</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Welcome to Quizee.org</h1>
+      <h3>Customize Quiz</h3>
+      <div class="customize-section">
+        <div>
+          <h3>Select Subject</h3>
+          <select id="subject-selection">
+            <option>Science</option>
+            <option>Engineering</option>
+            <option>ICT</option>
+            <option>History</option>
+            <option>History</option>
+          </select>
+        </div>
+
+        <div>
+            <h3>Number of Questions</h3>
+            <input type="number" placeholder="Questions" id="question-count">
+        </div>
+
+        <div>
+            <h3>Time Duration</h3>
+            <input type="number" placeholder="mins" id="duration">
+        </div>
+        <br>
+        <button onclick="GetData()">Start Quiz</button>
+      </div>
+    </div>
+  </body>
+</html>
