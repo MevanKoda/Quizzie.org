@@ -1,15 +1,17 @@
+
 const form = document.getElementById('customize-form')
 
-form.addEventListener('submit', (event)=>{
+form.addEventListener('submit', async(event)=>{
     event.preventDefault()
 
     const formData = new FormData(form)
 
-    const subject = formData.get('subject')
+    const category = formData.get('category')
     const questionCount = formData.get('question-count')
     const quizDuration = formData.get('duration')
 
-    console.log(`Subject :- ${subject}, Quiz-Count :- ${questionCount}, Duration :- ${quizDuration}`)
+    const url =`./pages/quiz.html?category=${category}&count=${questionCount}&duration=${quizDuration}`
+    window.location.href=url
 
-    window.location.href="./pages/quiz.html"
+    
 })
