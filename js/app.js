@@ -12,6 +12,4 @@ form.addEventListener('submit', async(event)=>{
 
     const url =`./pages/quiz.html?category=${category}&count=${questionCount}&duration=${quizDuration}`
     window.location.href=url
-
-    
 })
