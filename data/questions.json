@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for water?",
+    "options": ["HO", "H2O", "WO2", "H3O"],
+    "answer": 1,
+    "explanation": "Water is made of 2 hydrogen atoms and 1 oxygen atom, so its formula is H2O."
+  },
+  {
+    "id": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "What planet is known as the Red Planet?",
+    "options": ["Venus", "Jupiter", "Mars", "Saturn"],
+    "answer": 2,
+    "explanation": "Mars appears red due to iron oxide (rust) on its surface."
+  },
+  {
+    "id": 3,
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "What is the closest star to Earth?",
+    "options": ["Sirius", "Betelgeuse", "The Sun", "Proxima Centauri"],
+    "answer": 2,
+    "explanation": "The Sun is the closest star to Earth, at about 150 million kilometers away."
+  },
+  {
+    "id": 4,
+    "category": "Science",
+    "difficulty": "easy",
+    "question": "How many bones are in the adult human body?",
+    "options": ["206", "186", "256", "196"],
+    "answer": 0,
+    "explanation": "An adult human body has 206 bones. Babies are born with around 270, which fuse over time."
+  },
+  {
+    "id": 5,
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi Apparatus"],
+    "answer": 2,
+    "explanation": "Mitochondria produce ATP, the energy currency of the cell."
+  },
+  {
+    "id": 6,
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the speed of light in a vacuum?",
+    "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "200,000 km/s"],
+    "answer": 0,
+    "explanation": "Light travels at approximately 299,792 km/s, rounded to 300,000 km/s."
+  },
+  {
+    "id": 7,
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What gas do plants absorb during photosynthesis?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "answer": 2,
+    "explanation": "Plants absorb carbon dioxide (CO2) and convert it into glucose using sunlight."
+  },
+  {
+    "id": 8,
+    "category": "Science",
+    "difficulty": "medium",
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Argon", "Nitrogen"],
+    "answer": 3,
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere."
+  },
+  {
+    "id": 9,
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "Which particle has a negative charge in an atom?",
+    "options": ["Proton", "Neutron", "Electron", "Photon"],
+    "answer": 2,
+    "explanation": "Electrons carry a negative charge and orbit the nucleus of an atom."
+  },
+  {
+    "id": 10,
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "What is the atomic number of Carbon?",
+    "options": ["8", "12", "6", "4"],
+    "answer": 2,
+    "explanation": "Carbon has 6 protons, giving it an atomic number of 6."
+  },
+  {
+    "id": 11,
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "What is the SI unit of electric current?",
+    "options": ["Volt", "Watt", "Ampere", "Ohm"],
+    "answer": 2,
+    "explanation": "The ampere (A) is the SI base unit of electric current."
+  },
+  {
+    "id": 12,
+    "category": "Science",
+    "difficulty": "hard",
+    "question": "Which scientist proposed the theory of general relativity?",
+    "options": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Stephen Hawking"],
+    "answer": 2,
+    "explanation": "Albert Einstein published the theory of general relativity in 1915."
+  },
+  {
+    "id": 13,
+    "category": "Engineering",
+    "difficulty": "easy",
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Personal Unit", "Core Processing Utility", "Central Program Unit"],
+    "answer": 0,
+    "explanation": "CPU stands for Central Processing Unit, the brain of a computer."
+  },
+  {
+    "id": 14,
+    "category": "Engineering",
+    "difficulty": "easy",
+    "question": "Which of these is a renewable energy source?",
+    "options": ["Coal", "Natural Gas", "Solar", "Petroleum"],
+    "answer": 2,
+    "explanation": "Solar energy is renewable because it comes from the sun, an inexhaustible source."
+  },
+  {
+    "id": 15,
+    "category": "Engineering",
+    "difficulty": "easy",
+    "question": "What is the function of a transformer?",
+    "options": ["Store electrical energy", "Convert AC to DC", "Change voltage levels", "Measure current"],
+    "answer": 2,
+    "explanation": "A transformer changes (steps up or steps down) voltage levels in AC circuits."
+  },
+  {
+    "id": 16,
+    "category": "Engineering",
+    "difficulty": "easy",
+    "question": "What does GPS stand for?",
+    "options": ["Global Positioning System", "General Pathway Sensor", "Geographic Positioning Software", "Global Pathway Signal"],
+    "answer": 0,
+    "explanation": "GPS stands for Global Positioning System, used for navigation via satellites."
+  },
+  {
+    "id": 17,
+    "category": "Engineering",
+    "difficulty": "medium",
+    "question": "What does Ohm's Law state?",
+    "options": ["V = I x R", "P = V x I", "I = P / V", "R = P x V"],
+    "answer": 0,
+    "explanation": "Ohm's Law: Voltage (V) = Current (I) x Resistance (R)."
+  },
+  {
+    "id": 18,
+    "category": "Engineering",
+    "difficulty": "medium",
+    "question": "What material is commonly used as a semiconductor in electronics?",
+    "options": ["Copper", "Silicon", "Iron", "Aluminum"],
+    "answer": 1,
+    "explanation": "Silicon is the most widely used semiconductor material in modern electronics."
+  },
+  {
+    "id": 19,
+    "category": "Engineering",
+    "difficulty": "medium",
+    "question": "What type of bridge uses cables anchored at both ends to support the deck?",
+    "options": ["Arch bridge", "Beam bridge", "Suspension bridge", "Truss bridge"],
+    "answer": 2,
+    "explanation": "Suspension bridges use cables anchored at both ends. The Golden Gate Bridge is a famous example."
+  },
+  {
+    "id": 20,
+    "category": "Engineering",
+    "difficulty": "medium",
+    "question": "Which programming language is most commonly used for embedded systems?",
+    "options": ["Python", "JavaScript", "C", "Ruby"],
+    "answer": 2,
+    "explanation": "C is widely used in embedded systems due to its low-level hardware access and efficiency."
+  },
+  {
+    "id": 21,
+    "category": "Engineering",
+    "difficulty": "hard",
+    "question": "What is the unit of electrical resistance?",
+    "options": ["Ampere", "Volt", "Ohm", "Watt"],
+    "answer": 2,
+    "explanation": "Electrical resistance is measured in Ohms (O), named after Georg Simon Ohm."
+  },
+  {
+    "id": 22,
+    "category": "Engineering",
+    "difficulty": "hard",
+    "question": "What does CAD stand for in engineering?",
+    "options": ["Computer Aided Design", "Computer Automated Drawing", "Calculated Architectural Draft", "Core Assembly Design"],
+    "answer": 0,
+    "explanation": "CAD stands for Computer Aided Design, software used to create engineering drawings."
+  },
+  {
+    "id": 23,
+    "category": "Engineering",
+    "difficulty": "hard",
+    "question": "What is the term for the maximum stress a material can withstand before breaking?",
+    "options": ["Yield strength", "Elastic modulus", "Ultimate tensile strength", "Shear stress"],
+    "answer": 2,
+    "explanation": "Ultimate tensile strength (UTS) is the maximum stress a material can handle before fracture."
+  },
+  {
+    "id": 24,
+    "category": "Engineering",
+    "difficulty": "hard",
+    "question": "What does PLC stand for in industrial engineering?",
+    "options": ["Programmable Logic Controller", "Power Line Circuit", "Process Level Computer", "Programmed Load Control"],
+    "answer": 0,
+    "explanation": "PLC stands for Programmable Logic Controller, used to automate industrial processes."
+  },
+  {
+    "id": 25,
+    "category": "ICT",
+    "difficulty": "easy",
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HyperText Machine Language", "HighText Markup Language", "HyperTool Making Language"],
+    "answer": 0,
+    "explanation": "HTML = HyperText Markup Language, the standard language for structuring web pages."
+  },
+  {
+    "id": 26,
+    "category": "ICT",
+    "difficulty": "easy",
+    "question": "What does URL stand for?",
+    "options": ["Universal Resource Locator", "Uniform Resource Locator", "Unified Reference Link", "Universal Reference Link"],
+    "answer": 1,
+    "explanation": "URL stands for Uniform Resource Locator, the address of a web page."
+  },
+  {
+    "id": 27,
+    "category": "ICT",
+    "difficulty": "easy",
+    "question": "What does RAM stand for?",
+    "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Module", "Runtime Active Memory"],
+    "answer": 1,
+    "explanation": "RAM stands for Random Access Memory, temporary storage used by running programs."
+  },
+  {
+    "id": 28,
+    "category": "ICT",
+    "difficulty": "easy",
+    "question": "Which of the following is an operating system?",
+    "options": ["Microsoft Word", "Google Chrome", "Ubuntu", "Photoshop"],
+    "answer": 2,
+    "explanation": "Ubuntu is a Linux-based operating system. The others are applications."
+  },
+  {
+    "id": 29,
+    "category": "ICT",
+    "difficulty": "medium",
+    "question": "Which protocol is used to send emails?",
+    "options": ["HTTP", "FTP", "SMTP", "SSH"],
+    "answer": 2,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is the standard protocol for sending emails."
+  },
+  {
+    "id": 30,
+    "category": "ICT",
+    "difficulty": "medium",
+    "question": "What is the base of the binary number system?",
+    "options": ["8", "16", "10", "2"],
+    "answer": 3,
+    "explanation": "Binary uses base 2, only 0 and 1. Computers use binary at the hardware level."
+  },
+  {
+    "id": 31,
+    "category": "ICT",
+    "difficulty": "medium",
+    "question": "What does CSS stand for?",
+    "options": ["Creative Style Sheets", "Computer Style Syntax", "Cascading Style Sheets", "Coded Styling System"],
+    "answer": 2,
+    "explanation": "CSS stands for Cascading Style Sheets, used to style and layout web pages."
+  },
+  {
+    "id": 32,
+    "category": "ICT",
+    "difficulty": "medium",
+    "question": "What does an IP address identify?",
+    "options": ["A web browser", "A device on a network", "A website's content", "An email account"],
+    "answer": 1,
+    "explanation": "An IP address uniquely identifies a device on a network, like a home address for computers."
+  },
+  {
+    "id": 33,
+    "category": "ICT",
+    "difficulty": "hard",
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Logic", "System Query Layer", "Sequential Queue Language"],
+    "answer": 0,
+    "explanation": "SQL stands for Structured Query Language, used to manage relational databases."
+  },
+  {
+    "id": 34,
+    "category": "ICT",
+    "difficulty": "hard",
+    "question": "What is the purpose of a firewall in a network?",
+    "options": ["Speed up internet connection", "Store backup data", "Monitor and filter network traffic", "Assign IP addresses"],
+    "answer": 2,
+    "explanation": "A firewall monitors and controls incoming and outgoing network traffic based on security rules."
+  },
+  {
+    "id": 35,
+    "category": "ICT",
+    "difficulty": "hard",
+    "question": "Which data structure uses LIFO (Last In, First Out) order?",
+    "options": ["Queue", "Stack", "Linked List", "Tree"],
+    "answer": 1,
+    "explanation": "A stack follows LIFO. The last item added is the first one removed, like a stack of plates."
+  },
+  {
+    "id": 36,
+    "category": "ICT",
+    "difficulty": "hard",
+    "question": "What does HTTPS stand for?",
+    "options": ["HyperText Transfer Protocol Secure", "High Transfer Text Protocol System", "HyperText Transmission Process Secure", "Hosted Text Transfer Protocol Service"],
+    "answer": 0,
+    "explanation": "HTTPS is HyperText Transfer Protocol Secure. It encrypts data between browser and server."
+  },
+  {
+    "id": 37,
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Who was the first President of the United States?",
+    "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "Benjamin Franklin"],
+    "answer": 2,
+    "explanation": "George Washington served as the first U.S. President from 1789 to 1797."
+  },
+  {
+    "id": 38,
+    "category": "History",
+    "difficulty": "easy",
+    "question": "In which year did World War II end?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "answer": 2,
+    "explanation": "World War II ended in 1945 with the surrender of Germany (May) and Japan (September)."
+  },
+  {
+    "id": 39,
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Which country built the Great Wall?",
+    "options": ["Japan", "India", "China", "Mongolia"],
+    "answer": 2,
+    "explanation": "The Great Wall of China was built over many centuries to protect against invasions."
+  },
+  {
+    "id": 40,
+    "category": "History",
+    "difficulty": "easy",
+    "question": "Who was known as the Maid of Orleans?",
+    "options": ["Marie Curie", "Joan of Arc", "Cleopatra", "Queen Victoria"],
+    "answer": 1,
+    "explanation": "Joan of Arc, a French heroine of the Hundred Years War, was called the Maid of Orleans."
+  },
+  {
+    "id": 41,
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which ancient wonder was located in Alexandria, Egypt?",
+    "options": ["The Colossus of Rhodes", "The Lighthouse of Alexandria", "The Hanging Gardens", "The Statue of Zeus"],
+    "answer": 1,
+    "explanation": "The Lighthouse of Alexandria was one of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": 42,
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Who invented the telephone?",
+    "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+    "answer": 2,
+    "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876."
+  },
+  {
+    "id": 43,
+    "category": "History",
+    "difficulty": "medium",
+    "question": "Which civilization built Machu Picchu?",
+    "options": ["Aztec", "Maya", "Inca", "Olmec"],
+    "answer": 2,
+    "explanation": "Machu Picchu was built by the Inca Empire in the 15th century in present-day Peru."
+  },
+  {
+    "id": 44,
+    "category": "History",
+    "difficulty": "medium",
+    "question": "What year did the Berlin Wall fall?",
+    "options": ["1985", "1987", "1989", "1991"],
+    "answer": 2,
+    "explanation": "The Berlin Wall fell on November 9, 1989, marking the end of the Cold War division of Germany."
+  },
+  {
+    "id": 45,
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Which empire was ruled by Genghis Khan?",
+    "options": ["Ottoman Empire", "Roman Empire", "Mongol Empire", "Persian Empire"],
+    "answer": 2,
+    "explanation": "Genghis Khan founded and ruled the Mongol Empire, the largest contiguous land empire in history."
+  },
+  {
+    "id": 46,
+    "category": "History",
+    "difficulty": "hard",
+    "question": "What year did the French Revolution begin?",
+    "options": ["1776", "1789", "1799", "1804"],
+    "answer": 1,
+    "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14."
+  },
+  {
+    "id": 47,
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Who was the first Emperor of Rome?",
+    "options": ["Julius Caesar", "Nero", "Augustus", "Caligula"],
+    "answer": 2,
+    "explanation": "Augustus (born Octavian) became the first Roman Emperor in 27 BC after defeating Mark Antony."
+  },
+  {
+    "id": 48,
+    "category": "History",
+    "difficulty": "hard",
+    "question": "The Treaty of Versailles in 1919 officially ended which war?",
+    "options": ["World War II", "The Crimean War", "The Napoleonic Wars", "World War I"],
+    "answer": 3,
+    "explanation": "The Treaty of Versailles, signed in 1919, formally ended World War I and imposed penalties on Germany."
+  }
+]
