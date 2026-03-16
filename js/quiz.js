@@ -8,6 +8,8 @@ function createQuizBox(filteredData,count, category){
     quizTitle.className = 'quizTitle'
     quizTitle.textContent = `${category} Quiz✍🏻`
     document.body.prepend(quizTitle)
+
+
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
         quizEl.className = 'quizEl'
@@ -16,6 +18,8 @@ function createQuizBox(filteredData,count, category){
 
         const AnswersEl = document.createElement('div')
         AnswersEl.className = 'AnswersEl'
+
+
         for(let j = 0; j < filteredData[j].options.length; j++){
             const ansBtn = document.createElement('button')
             ansBtn.className='ansBtn'
@@ -24,19 +28,27 @@ function createQuizBox(filteredData,count, category){
 
             ansBtn.addEventListener('click', function(){
                 const allButtons = this.parentElement.querySelectorAll('button')
+                const ansExplanation = document.createElement('h1')
+                ansExplanation.className = "ansExplanation"
                 allButtons.forEach(btn=>{
                     btn.disabled = true
                 })
+
                 if(filteredData[i].answer === Number(this.dataset.index)){
                     console.log("Correct")
                     this.style.backgroundColor = 'green'
                     this.style.color = 'white'
+                    ansExplanation.textContent = `✅ ${filteredData[i].explanation}`;
+                    quizEl.appendChild(ansExplanation)
+
                 }else{
                     this.style.backgroundColor = 'red'
                     this.style.color = 'white'
-
+                    ansExplanation.textContent = `❌ ${filteredData[i].explanation}`;
+                    quizEl.appendChild(ansExplanation)
                 }
             })
+            
             AnswersEl.appendChild(ansBtn)
         }
 

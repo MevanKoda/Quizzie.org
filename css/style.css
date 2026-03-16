@@ -126,5 +126,7 @@ select,input{
     transform:scale(1.05)
 }
 
-
-
+.ansExplanation{
+    margin-top:20px;
+    font-size:15px;
+}
