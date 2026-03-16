@@ -23,7 +23,7 @@ async function fetchQuiz(category,count){
     try{
         const response = await fetch('../data/questions.json');
         data = await response.json()
-        if(!response){
+        if(!response.ok){
             console.log("Failed to fetch response")
         }
 
@@ -44,6 +44,7 @@ async function fetchQuiz(category,count){
 function checkAns(answer,index){
     if(answer === filteredQuiz[index].answer){
         console.log("Correct")
+       
     }else{
         console.log("Wrong")
     }
