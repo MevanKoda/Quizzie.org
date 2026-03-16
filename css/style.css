@@ -119,14 +119,16 @@ select,input{
     border:none;
     border-radius:10px;
     padding:10px;
-    transition:transform 500ms ease;
 }
 
 .ansBtn:hover{
-    transform:scale(1.05)
+    background-color:rgb(1, 1, 125)
 }
 
 .ansExplanation{
     margin-top:20px;
     font-size:15px;
+    background-color:white;
+    padding:10px;
+    border-radius:5px
 }
