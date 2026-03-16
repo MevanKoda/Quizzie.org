@@ -17,7 +17,7 @@
     align-items:center;
     flex-direction:column;
     background-color:rgb(239, 239, 240);
-    padding:50px;
+    padding:60px;
     border-radius:20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -60,13 +60,14 @@ select,input{
 
 .button-container button{
     padding:20px 40px 20px 40px;
+    font-weight:bold;
     background-color:blue;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     border:none;
     border-radius:50px;
-    font-size:20px;
-    transition: transform 200ms ease;
+    font-size:18px;
+    transition: transform 400ms ease;
 }
 
 .button-container button:hover{
