@@ -7,13 +7,37 @@ function createQuizBox(filteredData,count){
 
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
-        const quizContent = `<h1>${filteredData[i].question}</h1>
-        <button onclick="checkAns(0,${i})">${filteredData[i].options[0]}</button>
-        <button onclick="checkAns(1,${i})">${filteredData[i].options[1]}</button>
-        <button onclick="checkAns(2,${i})">${filteredData[i].options[2]}</button>
-        <button onclick="checkAns(3,${i})">${filteredData[i].options[3]}</button>
-        <button onclick="(()=>console.log('Clicked'))()">Go to next</button>`
-        quizEl.innerHTML = quizContent
+        quizEl.className = 'quizEl'
+        const questionTitle = document.createElement('h1')
+        questionTitle.textContent = `${i+1}.${filteredData[i].question}`
+
+        const AnswersEl = document.createElement('div')
+        AnswerEl.className = 'AnswersEl'
+        for(let j = 0; j < filteredData[j].options.length; j++){
+            const ansBtn = document.createElement('button')
+            ansBtn.className='ansBtn'
+            ansBtn.textContent = filteredData[i].options[j]
+            ansBtn.dataset.index = j
+            ansBtn.addEventListener('click', function(){
+                const allButtons = this.parentElement.querySelectorAll('button')
+                allButtons.forEach(btn=>{
+                    btn.disabled = true
+                })
+                if(filteredData[i].answer === Number(this.dataset.index)){
+                    console.log("Correct")
+                    this.style.backgroundColor = 'green'
+                    this.style.color = 'white'
+                }else{
+                    this.style.backgroundColor = 'red'
+                    this.style.color = 'white'
+
+                }
+            })
+            AnswersEl.appendChild(ansBtn)
+        }
+
+        quizEl.appendChild(questionTitle)
+        quizEl.appendChild(AnswersEl)
         quizBox.appendChild(quizEl)
     }
 }
@@ -44,6 +68,7 @@ async function fetchQuiz(category,count){
 function checkAns(answer,index){
     if(answer === filteredQuiz[index].answer){
         console.log("Correct")
+        
     }else{
         console.log("Wrong")
     }
