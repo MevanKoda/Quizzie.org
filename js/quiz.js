@@ -98,4 +98,6 @@ async function loadQuiz(){
     await fetchQuiz(category,count)
 }
 
+
+
 loadQuiz()
