@@ -48,7 +48,7 @@ function createQuizBox(filteredData,count, category){
                     quizEl.appendChild(ansExplanation)
                 }
             })
-            
+
             AnswersEl.appendChild(ansBtn)
         }
 
@@ -63,7 +63,7 @@ async function fetchQuiz(category,count){
     try{
         const response = await fetch('../data/questions.json');
         data = await response.json()
-        if(!response){
+        if(!response.ok){
             console.log("Failed to fetch response")
         }
 
