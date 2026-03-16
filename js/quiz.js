@@ -7,12 +7,15 @@ function createQuizBox(filteredData,count){
 
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
+        quizEl.className = 'quizEl'
         const questionTitle = document.createElement('h1')
-        questionTitle.textContent = filteredData[i].question
+        questionTitle.textContent = `${i+1}.${filteredData[i].question}`
 
         const AnswersEl = document.createElement('div')
+        AnswerEl.className = 'AnswersEl'
         for(let j = 0; j < filteredData[j].options.length; j++){
             const ansBtn = document.createElement('button')
+            ansBtn.className='ansBtn'
             ansBtn.textContent = filteredData[i].options[j]
             ansBtn.dataset.index = j
             ansBtn.addEventListener('click', function(){
