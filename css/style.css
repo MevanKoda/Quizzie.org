@@ -76,3 +76,55 @@ select,input{
     color:blue;
     border:2px solid blue
 }
+
+.quizTitle{
+    color:blue;
+    text-align:center;
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin:20px
+}
+
+.quiz-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:20px;
+}
+.quizEl{
+    width:40%;
+    padding:40px;
+    background-color:rgb(238, 238, 238);
+    border-radius:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:50px;
+    color:rgb(63, 63, 63)
+
+}
+
+.AnswersEl{
+    margin-top:30px;
+}
+
+.ansBtn{
+    display:block;
+    width:100%;
+    font-size:20px;
+    margin-top:10px;
+    background-color:blue;
+    opacity:0.8;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    transition:transform 500ms ease;
+}
+
+.ansBtn:hover{
+    transform:scale(1.05)
+}
+
+
+

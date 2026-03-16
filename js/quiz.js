@@ -2,22 +2,26 @@ let data;
 let filteredQuiz;
 
 //Create QuizBox element in the page
-function createQuizBox(filteredData,count){
+function createQuizBox(filteredData,count, category){
     const quizBox = document.getElementById('quiz-box')
-
+    const quizTitle = document.createElement('h1')
+    quizTitle.className = 'quizTitle'
+    quizTitle.textContent = `${category} Quiz✍🏻`
+    document.body.prepend(quizTitle)
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
         quizEl.className = 'quizEl'
         const questionTitle = document.createElement('h1')
-        questionTitle.textContent = `${i+1}.${filteredData[i].question}`
+        questionTitle.textContent = `${i+1}. ${filteredData[i].question}`
 
         const AnswersEl = document.createElement('div')
-        AnswerEl.className = 'AnswersEl'
+        AnswersEl.className = 'AnswersEl'
         for(let j = 0; j < filteredData[j].options.length; j++){
             const ansBtn = document.createElement('button')
             ansBtn.className='ansBtn'
             ansBtn.textContent = filteredData[i].options[j]
             ansBtn.dataset.index = j
+
             ansBtn.addEventListener('click', function(){
                 const allButtons = this.parentElement.querySelectorAll('button')
                 allButtons.forEach(btn=>{
@@ -57,7 +61,7 @@ async function fetchQuiz(category,count){
         filteredQuiz = data.filter(item => item.category == category)
         console.log(filteredQuiz)
 
-        createQuizBox(filteredQuiz, count)
+        createQuizBox(filteredQuiz, count, category)
 
     }catch(error){
         console.error(error)
