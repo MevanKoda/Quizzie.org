@@ -101,7 +101,7 @@ async function loadQuiz(){
     const params = new URLSearchParams(window.location.search)
     const category = params.get('category')
     const count = params.get('count')
-    const duration = params.get('duration')/60
+    const duration = params.get('duration')
     
     await fetchQuiz(category,count)
     timer(duration)
