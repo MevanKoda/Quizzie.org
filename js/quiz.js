@@ -34,7 +34,7 @@ function createQuizBox(filteredData,count, category){
         AnswersEl.className = 'AnswersEl'
 
 
-        for(let j = 0; j < filteredData[j].options.length; j++){
+        for(let j = 0; j < filteredData[i].options.length; j++){
             const ansBtn = document.createElement('button')
             ansBtn.className='ansBtn'
             ansBtn.textContent = filteredData[i].options[j]
