@@ -90,7 +90,7 @@ select,input{
     z-index:100
 }
 
-.quizTitle{
+.quiz-title{
     color:white;
 
     text-align:center;
@@ -101,7 +101,7 @@ select,input{
 }
 
 
-.timerEl{
+.timer-element{
     font-size:40px;
     background-color:rgb(24, 58, 231);
     text-align:center;
@@ -121,7 +121,7 @@ select,input{
     padding-top:100px;
     
 }
-.quizEl{
+.quiz-element{
     width:40%;
     padding:40px;
     background-color:rgb(238, 238, 238);
@@ -132,11 +132,11 @@ select,input{
 
 }
 
-.AnswersEl{
+.Answers-element{
     margin-top:30px;
 }
 
-.ansBtn{
+.option-btn{
     display:block;
     width:100%;
     font-size:20px;
@@ -149,7 +149,7 @@ select,input{
     padding:10px;
 }
 
-.ansBtn:hover{
+.option-btn:hover{
     background-color:rgb(1, 1, 125)
 }
 
