@@ -1,14 +1,24 @@
+import {timer} from '../js/timer.js'
+
 let data;
 let filteredQuiz;
 
+const quizHeader = document.getElementById('quiz-header')
+const quizBox = document.getElementById('quiz-box')
+
 //Create QuizBox element in the page
 function createQuizBox(filteredData,count, category){
-    const quizBox = document.getElementById('quiz-box')
+    
     const quizTitle = document.createElement('h1')
     quizTitle.className = 'quizTitle'
     quizTitle.textContent = `${category} Quiz✍🏻`
-    document.body.prepend(quizTitle)
+    const timerEl = document.createElement('h3')
+    timerEl.id = 'timerEl'
+    timerEl.className = 'timerEl'
+    quizHeader.append(quizTitle,timerEl)
 
+
+    
 
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
@@ -75,6 +85,7 @@ async function fetchQuiz(category,count){
 
         createQuizBox(filteredQuiz, count, category)
 
+
     }catch(error){
         console.error(error)
     }
@@ -95,9 +106,14 @@ async function loadQuiz(){
     const params = new URLSearchParams(window.location.search)
     const category = params.get('category')
     const count = params.get('count')
+    const duration = params.get('duration')
     await fetchQuiz(category,count)
+    timer(duration)
+
+
 }
 
 
 
 loadQuiz()
+
