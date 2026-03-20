@@ -92,6 +92,7 @@ select,input{
 
 .quizTitle{
     color:white;
+
     text-align:center;
     font-size:50px;
     font-family:Arial, Helvetica, sans-serif;
@@ -102,7 +103,7 @@ select,input{
 
 .timerEl{
     font-size:40px;
-    
+    background-color:rgb(24, 58, 231);
     text-align:center;
     border-radius:20px;
     color:rgb(255, 255, 255);
@@ -159,3 +160,41 @@ select,input{
     padding:10px;
     border-radius:5px
 }
+
+.result-box{
+    text-align:center;
+    background-color:rgb(239, 239, 240);
+    padding:60px;
+    border-radius:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.result-box h3{
+    margin-top:20px
+}
+
+
+.result-button-container{
+    gap:15px;
+    margin-top:40px
+}
+
+.retry-btn{
+    background-color:orange;
+    color:white;
+    border:none;
+    font-size:20px;
+    padding:15px 25px 15px 25px;
+    border-radius:20px
+}
+
+.startover-btn{
+    background-color:blue;
+    color:white;
+    border:none;
+    font-size:20px;
+    padding:15px 25px 15px 25px;
+    border-radius:20px
+}
+

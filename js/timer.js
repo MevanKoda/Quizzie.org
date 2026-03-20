@@ -17,9 +17,8 @@ export function timer(duration,saveResult) {
             timerEl.style.backgroundColor = 'orange'   // last 50%-20%
         } else if (time <= totalTime * 0.2 && time > 0) {
             timerEl.style.backgroundColor = 'red'      // last 20%
-        } else if (time <= 0) {
+        } else if (time <= -1) {
             clearInterval(intervalId)
-            timerEl.textContent = ""
             setTimeout(() =>{
                 saveResult()
                 window.location.href = '../pages/result.html'
