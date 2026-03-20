@@ -10,6 +10,8 @@ form.addEventListener('submit', async(event)=>{
     const questionCount = formData.get('question-count')
     const quizDuration = formData.get('duration')
     console.log(quizDuration)
+
+    
     const url =`./pages/quiz.html?category=${category}&count=${questionCount}&duration=${quizDuration}`
     window.location.href=url
 })
