@@ -1,7 +1,7 @@
 let time = null
 let intervalId = null
 
-export function timer(duration) {
+export function timer(duration,saveResult) {
     time = duration * 60
     const totalTime = time
     const timerEl = document.getElementById('timerEl')
@@ -20,7 +20,10 @@ export function timer(duration) {
         } else if (time <= 0) {
             clearInterval(intervalId)
             timerEl.textContent = ""
-            setTimeout(() => window.location.href = '../pages/result.html', 2000)
+            setTimeout(() =>{
+                saveResult()
+                window.location.href = '../pages/result.html'
+            }, 2000)
         }
     }, 1000)
 }

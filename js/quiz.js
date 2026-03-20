@@ -1,7 +1,11 @@
 import {timer} from '../js/timer.js'
+import {feedback} from '../js/feedback.js'
 
 let data;
 let filteredQuiz;
+
+let correctCount = 0
+let wrongCount = 0
 
 const quizHeader = document.getElementById('quiz-header')
 const quizBox = document.getElementById('quiz-box')
@@ -36,7 +40,8 @@ function createQuizBox(filteredData,count, category){
             ansBtn.textContent = filteredData[i].options[j]
             ansBtn.dataset.index = j
 
-            ansBtn.addEventListener('click', function(){
+            ansBtn.addEventListener('click', function(event){
+                event.preventDefault()
                 const allButtons = this.parentElement.querySelectorAll('button')
                 const ansExplanation = document.createElement('h1')
                 ansExplanation.className = "ansExplanation"
@@ -50,22 +55,29 @@ function createQuizBox(filteredData,count, category){
                     this.style.color = 'white'
                     ansExplanation.textContent = `✅ ${filteredData[i].explanation}`;
                     quizEl.appendChild(ansExplanation)
+                    correctCount++
 
                 }else{
                     this.style.backgroundColor = 'red'
                     this.style.color = 'white'
                     ansExplanation.textContent = `❌ ${filteredData[i].explanation}`;
                     quizEl.appendChild(ansExplanation)
+                    wrongCount++
                 }
             })
 
             AnswersEl.appendChild(ansBtn)
         }
 
+
         quizEl.appendChild(questionTitle)
         quizEl.appendChild(AnswersEl)
         quizBox.appendChild(quizEl)
+
+        
     }
+
+        
 }
 
 //Fetch QuizData from JSON file
@@ -91,15 +103,10 @@ async function fetchQuiz(category,count){
     }
 }
 
-//Checking the correct Answer
-function checkAns(answer,index){
-    if(answer === filteredQuiz[index].answer){
-        console.log("Correct")
-        
-    }else{
-        console.log("Wrong")
-    }
-}
+
+
+
+
 
 //Load the quiz
 async function loadQuiz(){
@@ -108,12 +115,18 @@ async function loadQuiz(){
     const count = params.get('count')
     const duration = params.get('duration')
     await fetchQuiz(category,count)
-    timer(duration)
+    timer(duration, saveResult)
 
 
 }
 
+function saveResult(){
+    const result = {
+        correct: correctCount,
+        wrong: wrongCount,
+    }
 
+    localStorage.setItem("result", JSON.stringify(result))
+}
 
 loadQuiz()
-
