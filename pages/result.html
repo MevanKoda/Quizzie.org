@@ -6,14 +6,16 @@
 
     <body>
         <div class="wrapper">
-            
+            <div class="result-box" id="resultBox">
+                <h2 id="resultEl"></h2>
+                <h3 id="messageEl"></h3>
 
-
-
+                <div class="result-button-container">
+                    <button onclick="restart('retry')" class="retry-btn">Retry</button>
+                    <button onclick="restart('startover')" class="startover-btn">New Quiz</button>
+                </div>
+            </div>
         </div>
-
-
-
         <script src="../js/results.js"></script>
     </body>
 
