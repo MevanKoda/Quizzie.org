@@ -64,6 +64,13 @@ function createQuizBox(filteredData,count, category){
                     quizEl.appendChild(ansExplanation)
                     wrongCount++
                 }
+
+                if(count == (correctCount + wrongCount)){
+                    saveResult()
+                    setTimeout(()=>{
+                        window.location.href="../pages/result.html"
+                    },1000)
+                }
             })
 
             AnswersEl.appendChild(ansBtn)
