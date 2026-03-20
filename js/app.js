@@ -11,7 +11,10 @@ form.addEventListener('submit', async(event)=>{
     const quizDuration = formData.get('duration')
     console.log(quizDuration)
 
-    
+    if(!questionCount || !quizDuration){
+        window.alert("Please add Question Count and Duration")
+    }else{
     const url =`./pages/quiz.html?category=${category}&count=${questionCount}&duration=${quizDuration}`
     window.location.href=url
+    }
 })

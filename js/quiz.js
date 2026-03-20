@@ -1,9 +1,9 @@
 import {timer} from '../js/timer.js'
-import {feedback} from '../js/feedback.js'
 
 let data;
 let filteredQuiz;
 
+let totalQuestions = null
 let correctCount = 0
 let wrongCount = 0
 
@@ -112,9 +112,9 @@ async function fetchQuiz(category,count){
 async function loadQuiz(){
     const params = new URLSearchParams(window.location.search)
     const category = params.get('category')
-    const count = params.get('count')
+    totalQuestions = params.get('count')
     const duration = params.get('duration')
-    await fetchQuiz(category,count)
+    await fetchQuiz(category,totalQuestions)
     timer(duration, saveResult)
 
 
@@ -124,6 +124,7 @@ function saveResult(){
     const result = {
         correct: correctCount,
         wrong: wrongCount,
+        total: totalQuestions
     }
 
     localStorage.setItem("result", JSON.stringify(result))
