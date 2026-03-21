@@ -10,21 +10,18 @@ let wrongCount = 0
 const quizHeader = document.getElementById('quiz-header')
 const quizBox = document.getElementById('quiz-box')
 
+
+
+
+
 //Create QuizBox element in the page
 function createQuizBox(filteredData,count, category){
     
 
-    const quizTitle = document.createElement('h1')
-    quizTitle.classList='quiz-title'
+    const quizTitle = document.getElementById('quizTitle')
     quizTitle.textContent = `${category} Quiz✍🏻`
 
-    const timerEl = document.createElement('h3')
-    timerEl.id='timerEl'
-    timerEl.classList='timer-element'
-
-    //Append quizTitle and timerEl to quizHeader
-    quizHeader.append(quizTitle,timerEl)
-
+    const timerEl = document.getElementById('timerEl')
 
     
 
