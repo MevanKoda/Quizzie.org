@@ -1357,7 +1357,7 @@
 
   {
     "id": 151,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "Who wrote 'Romeo and Juliet'?",
     "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
@@ -1366,7 +1366,7 @@
   },
   {
     "id": 152,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "Which of these words is a noun?",
     "options": ["Run", "Quickly", "Beautiful", "Freedom"],
@@ -1375,7 +1375,7 @@
   },
   {
     "id": 153,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "Who wrote the 'Harry Potter' series?",
     "options": ["J.R.R. Tolkien", "Roald Dahl", "J.K. Rowling", "C.S. Lewis"],
@@ -1384,7 +1384,7 @@
   },
   {
     "id": 154,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "What is a synonym for the word 'happy'?",
     "options": ["Melancholy", "Furious", "Weary", "Joyful"],
@@ -1393,7 +1393,7 @@
   },
   {
     "id": 155,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "How many letters are in the English alphabet?",
     "options": ["24", "28", "26", "25"],
@@ -1402,7 +1402,7 @@
   },
   {
     "id": 156,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "What punctuation mark is used at the end of a question?",
     "options": ["Full stop", "Exclamation mark", "Comma", "Question mark"],
@@ -1411,7 +1411,7 @@
   },
   {
     "id": 157,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "Who wrote 'The Lion, the Witch and the Wardrobe'?",
     "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "J.R.R. Tolkien"],
@@ -1420,7 +1420,7 @@
   },
   {
     "id": 158,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "easy",
     "question": "What is the opposite (antonym) of the word 'ancient'?",
     "options": ["Old", "Historical", "Modern", "Classic"],
@@ -1429,7 +1429,7 @@
   },
   {
     "id": 159,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What literary device is used in 'The wind whispered through the trees'?",
     "options": ["Simile", "Metaphor", "Alliteration", "Personification"],
@@ -1438,7 +1438,7 @@
   },
   {
     "id": 160,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is a haiku?",
     "options": ["A 14-line poem", "A story told in verse", "A poem with no rhyme", "A 3-line Japanese poem with 5-7-5 syllables"],
@@ -1447,7 +1447,7 @@
   },
   {
     "id": 161,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What does the prefix 'bio-' mean?",
     "options": ["Earth", "Water", "Life", "Time"],
@@ -1456,7 +1456,7 @@
   },
   {
     "id": 162,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is an antonym?",
     "options": ["A word with the same meaning", "A word with the opposite meaning", "A word that sounds the same", "A word that is misspelled"],
@@ -1465,7 +1465,7 @@
   },
   {
     "id": 163,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is a simile?",
     "options": ["Giving human traits to objects", "Repeating the same starting sound", "A comparison using 'like' or 'as'", "An exaggerated statement"],
@@ -1474,7 +1474,7 @@
   },
   {
     "id": 164,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is the genre of a story set in an imaginary future with advanced technology?",
     "options": ["Fantasy", "Mystery", "Romance", "Science Fiction"],
@@ -1483,7 +1483,7 @@
   },
   {
     "id": 165,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "Who wrote the novel '1984'?",
     "options": ["Aldous Huxley", "Ernest Hemingway", "George Orwell", "F. Scott Fitzgerald"],
@@ -1492,7 +1492,7 @@
   },
   {
     "id": 166,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is the plural of 'mouse'?",
     "options": ["Mouses", "Mices", "Mice", "Mouse"],
@@ -1501,7 +1501,7 @@
   },
   {
     "id": 167,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "medium",
     "question": "What is a metaphor?",
     "options": ["A word that imitates a sound", "A direct comparison without using 'like' or 'as'", "A comparison using 'like' or 'as'", "Repeating the same letter sound"],
@@ -1510,7 +1510,7 @@
   },
   {
     "id": 168,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "Which language has the most native speakers in the world?",
     "options": ["English", "Hindi", "Spanish", "Mandarin Chinese"],
@@ -1519,7 +1519,7 @@
   },
   {
     "id": 169,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "What is an 'oxymoron'?",
     "options": ["An exaggerated statement", "A figure of speech combining contradictory terms", "A word that sounds like what it means", "A reference to another text"],
@@ -1528,7 +1528,7 @@
   },
   {
     "id": 170,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "Who wrote 'Pride and Prejudice'?",
     "options": ["Charlotte Bronte", "Emily Bronte", "Virginia Woolf", "Jane Austen"],
@@ -1537,7 +1537,7 @@
   },
   {
     "id": 171,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "What literary technique involves giving hints about future events in a story?",
     "options": ["Flashback", "Foreshadowing", "Irony", "Allusion"],
@@ -1546,7 +1546,7 @@
   },
   {
     "id": 172,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "What does the word 'protagonist' mean?",
     "options": ["The villain of the story", "The narrator of the story", "The main character of a story", "A minor supporting character"],
@@ -1555,7 +1555,7 @@
   },
   {
     "id": 173,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "Who wrote the novel 'Things Fall Apart'?",
     "options": ["Wole Soyinka", "Chimamanda Ngozi Adichie", "Ngugi wa Thiong'o", "Chinua Achebe"],
@@ -1564,7 +1564,7 @@
   },
   {
     "id": 174,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "What is 'alliteration'?",
     "options": ["Repeating vowel sounds within words", "Repetition of the same consonant sound at the start of nearby words", "Using words that sound like what they describe", "Comparing two unlike things"],
@@ -1573,7 +1573,7 @@
   },
   {
     "id": 175,
-    "category": "Literature & Language",
+    "category": "Literature and Language",
     "difficulty": "hard",
     "question": "In grammar, what tense describes an action completed before another past action?",
     "options": ["Simple past", "Present perfect", "Past perfect", "Future perfect"],
@@ -1809,7 +1809,7 @@
 
   {
     "id": 201,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What does GDP stand for?",
     "options": ["General Domestic Product", "Gross Domestic Product", "Global Distribution of Products", "Government Debt Position"],
@@ -1818,7 +1818,7 @@
   },
   {
     "id": 202,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is the term for the money paid to employees for their work?",
     "options": ["Revenue", "Dividend", "Wage/Salary", "Subsidy"],
@@ -1827,7 +1827,7 @@
   },
   {
     "id": 203,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is a budget?",
     "options": ["A type of bank account", "A government tax", "A plan for how money will be earned and spent", "A business loan"],
@@ -1836,7 +1836,7 @@
   },
   {
     "id": 204,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is 'profit' in business?",
     "options": ["Total money earned", "Money borrowed from a bank", "Money left after all costs are paid", "Money paid as tax"],
@@ -1845,7 +1845,7 @@
   },
   {
     "id": 205,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is inflation?",
     "options": ["A decrease in prices over time", "A rise in unemployment", "A general increase in prices over time", "A drop in a country's GDP"],
@@ -1854,7 +1854,7 @@
   },
   {
     "id": 206,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What does 'supply and demand' help determine in a market?",
     "options": ["The location of a business", "The number of workers needed", "The tax rate of goods", "The price of goods and services"],
@@ -1863,7 +1863,7 @@
   },
   {
     "id": 207,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is a receipt?",
     "options": ["A loan document", "A contract between businesses", "A printed record of a purchase transaction", "A type of currency"],
@@ -1872,7 +1872,7 @@
   },
   {
     "id": 208,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "easy",
     "question": "What is the main purpose of a bank?",
     "options": ["To print currency", "To collect taxes", "To accept deposits and offer loans", "To set product prices"],
@@ -1881,7 +1881,7 @@
   },
   {
     "id": 209,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is the stock market?",
     "options": ["A place where goods are sold", "A government financial department", "A place where company shares are bought and sold", "A type of savings account"],
@@ -1890,7 +1890,7 @@
   },
   {
     "id": 210,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What does the term 'entrepreneur' mean?",
     "options": ["A government economist", "A stock market investor", "A person who starts and runs a business", "A company accountant"],
@@ -1899,7 +1899,7 @@
   },
   {
     "id": 211,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is the difference between a 'need' and a 'want' in economics?",
     "options": ["Needs are free, wants cost money", "Needs are for adults, wants are for children", "There is no difference", "Needs are essential for survival, wants are desires"],
@@ -1908,7 +1908,7 @@
   },
   {
     "id": 212,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What does ROI stand for in business?",
     "options": ["Rate of Inflation", "Revenue Over Income", "Return on Investment", "Record of Income"],
@@ -1917,7 +1917,7 @@
   },
   {
     "id": 213,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is 'market competition'?",
     "options": ["A government auction", "When businesses try to attract the same customers", "A stock market game", "When companies merge together"],
@@ -1926,7 +1926,7 @@
   },
   {
     "id": 214,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is 'interest' in the context of banking?",
     "options": ["A bank's profit from investments", "The fee charged for borrowing money", "Government tax on savings", "A type of loan agreement"],
@@ -1935,7 +1935,7 @@
   },
   {
     "id": 215,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is a monopoly in economics?",
     "options": ["Two companies sharing a market", "A market with many small businesses", "One company controlling an entire market", "A government-controlled industry"],
@@ -1944,7 +1944,7 @@
   },
   {
     "id": 216,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is the purpose of a business plan?",
     "options": ["To report taxes to the government", "To outline goals, strategies, and finances for a business", "To list employee salaries", "To register a company name"],
@@ -1953,7 +1953,7 @@
   },
   {
     "id": 217,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "medium",
     "question": "What is a budget deficit?",
     "options": ["When a country has too much money saved", "When a company earns more than expected", "When a government spends more than it earns", "When inflation is very low"],
@@ -1962,7 +1962,7 @@
   },
   {
     "id": 218,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is the law of diminishing returns?",
     "options": ["Prices fall when supply increases", "Tax increases reduce business profits", "Each additional unit of input yields progressively less output", "Profits always decrease over time"],
@@ -1971,7 +1971,7 @@
   },
   {
     "id": 219,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is fiscal policy?",
     "options": ["A central bank's control of interest rates", "A company's pricing strategy", "Government decisions about taxation and public spending", "International trade regulations"],
@@ -1980,7 +1980,7 @@
   },
   {
     "id": 220,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What does 'depreciation' mean in business accounting?",
     "options": ["An increase in asset value over time", "The reduction in value of an asset over time", "A tax deduction for businesses", "The cost of replacing old equipment"],
@@ -1989,7 +1989,7 @@
   },
   {
     "id": 221,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is an oligopoly?",
     "options": ["A market with one dominant firm", "A market controlled by the government", "A market dominated by a small number of large firms", "A perfectly competitive market"],
@@ -1998,7 +1998,7 @@
   },
   {
     "id": 222,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is 'opportunity cost' in economics?",
     "options": ["The cost of producing goods", "The value of the next best alternative foregone", "The cost of hiring workers", "The price difference between two goods"],
@@ -2007,7 +2007,7 @@
   },
   {
     "id": 223,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is the difference between a fixed cost and a variable cost?",
     "options": ["Fixed costs are paid by employees; variable costs are paid by employers", "Fixed costs change monthly; variable costs are annual", "Fixed costs do not change with output; variable costs increase with output", "There is no difference in business"],
@@ -2016,7 +2016,7 @@
   },
   {
     "id": 224,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is the main role of a central bank?",
     "options": ["To sell goods and services abroad", "To manage a country's money supply and interest rates", "To collect taxes from citizens", "To fund private businesses"],
@@ -2025,7 +2025,7 @@
   },
   {
     "id": 225,
-    "category": "Economics & Business",
+    "category": "Economics and Business",
     "difficulty": "hard",
     "question": "What is the difference between microeconomics and macroeconomics?",
     "options": ["Micro studies past events; macro studies future trends", "Micro studies large industries; macro studies small businesses", "They are the same thing", "Micro studies individual consumers and firms; macro studies the whole economy"],

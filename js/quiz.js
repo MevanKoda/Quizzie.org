@@ -13,12 +13,16 @@ const quizBox = document.getElementById('quiz-box')
 //Create QuizBox element in the page
 function createQuizBox(filteredData,count, category){
     
+
     const quizTitle = document.createElement('h1')
-    quizTitle.className = 'quizTitle'
+    quizTitle.classList='quiz-title'
     quizTitle.textContent = `${category} Quiz✍🏻`
+
     const timerEl = document.createElement('h3')
-    timerEl.id = 'timerEl'
-    timerEl.className = 'timerEl'
+    timerEl.id='timerEl'
+    timerEl.classList='timer-element'
+
+    //Append quizTitle and timerEl to quizHeader
     quizHeader.append(quizTitle,timerEl)
 
 
@@ -26,25 +30,26 @@ function createQuizBox(filteredData,count, category){
 
     for(let i=0; i<count; i++){
         const quizEl = document.createElement('div')
-        quizEl.className = 'quizEl'
+        quizEl.classList = 'quiz-element'
+
         const questionTitle = document.createElement('h1')
         questionTitle.textContent = `${i+1}. ${filteredData[i].question}`
 
         const AnswersEl = document.createElement('div')
-        AnswersEl.className = 'AnswersEl'
+        AnswersEl.classList = 'Answers-element'
 
 
         for(let j = 0; j < filteredData[i].options.length; j++){
-            const ansBtn = document.createElement('button')
-            ansBtn.className='ansBtn'
-            ansBtn.textContent = filteredData[i].options[j]
-            ansBtn.dataset.index = j
+            const optionBtn = document.createElement('button')
+            optionBtn.classList = 'option-btn'
+            optionBtn.textContent = filteredData[i].options[j]
+            optionBtn.dataset.index = j
 
-            ansBtn.addEventListener('click', function(event){
-                event.preventDefault()
+            optionBtn.addEventListener('click', function(){
                 const allButtons = this.parentElement.querySelectorAll('button')
                 const ansExplanation = document.createElement('h1')
-                ansExplanation.className = "ansExplanation"
+                ansExplanation.classList = "ansExplanation"
+
                 allButtons.forEach(btn=>{
                     btn.disabled = true
                 })
@@ -73,7 +78,7 @@ function createQuizBox(filteredData,count, category){
                 }
             })
 
-            AnswersEl.appendChild(ansBtn)
+            AnswersEl.appendChild(optionBtn)
         }
 
 
