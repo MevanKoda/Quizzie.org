@@ -54,7 +54,7 @@ select, input {
     padding: 20px;
     font-size: 15px;
     font-weight: bold;
-    background-color: #e4e4e4;       /* optional — makes them visible without a border */
+    background-color: #e4e4e4e5;       /* optional — makes them visible without a border */
     transition: border-color 200ms ease;
 }
 
