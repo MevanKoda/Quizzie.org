@@ -12,6 +12,11 @@ const quizHeader = document.getElementById('quiz-header')
 const quizBox = document.getElementById('quiz-box')
 const progressBar = document.getElementById('progressBar')
 
+//Sound Effect players
+const startSoundEffect = document.getElementById('quizStartSound') 
+const correctSoundPlayer = document.getElementById('correctSoundPlayer')
+const wrongSoundPlayer = document.getElementById('wrongSoundPlayer')
+const quizOverSoundPlayer = document.getElementById('quizOverSoundPlayer')
 
 
 
@@ -58,7 +63,7 @@ function createQuizBox(filteredData,count, category){
                 })
 
                 if(filteredData[i].answer === Number(this.dataset.index)){
-                    console.log("Correct")
+                    correctSoundPlayer.play()
                     this.style.backgroundColor = 'green'
                     this.style.color = 'white'
                     ansExplanation.textContent = `✅ ${filteredData[i].explanation}`;
@@ -66,6 +71,7 @@ function createQuizBox(filteredData,count, category){
                     correctCount++
 
                 }else{
+                    wrongSoundPlayer.play()
                     this.style.backgroundColor = 'red'
                     this.style.color = 'white'
                     ansExplanation.textContent = `❌ ${filteredData[i].explanation}`;
@@ -74,6 +80,7 @@ function createQuizBox(filteredData,count, category){
                 }
 
                 if(count == (correctCount + wrongCount)){
+                        
                     saveResult()
                     setTimeout(()=>{
                         window.location.href="../pages/result.html"
@@ -134,6 +141,7 @@ async function loadQuiz(){
     timer(duration, saveResult)
 
 
+
 }
 
 function saveResult(){
@@ -147,3 +155,4 @@ function saveResult(){
 }
 
 loadQuiz()
+startSoundEffect.play()

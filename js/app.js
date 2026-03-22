@@ -1,6 +1,8 @@
 
 const form = document.getElementById('customize-form')
 
+const errorSoundPlayer = document.getElementById('errorSound')
+
 form.addEventListener('submit', async(event)=>{
     event.preventDefault()
 
@@ -12,6 +14,7 @@ form.addEventListener('submit', async(event)=>{
     console.log(quizDuration)
 
     if(!questionCount || !quizDuration){
+        errorSoundPlayer.play()
         window.alert("Please add Question Count and Duration")
     }else{
     const url =`./pages/quiz.html?category=${category}&count=${questionCount}&duration=${quizDuration}`

@@ -4,6 +4,10 @@ const correctCount = data.correct
 const wrongCount = data.wrong
 const totalQuestions = data.total
 
+
+const quizOverSoundPlayer = document.getElementById('quizOverSoundPlayer')
+quizOverSoundPlayer.play()
+
 let message = null
 
 let result = Math.round((correctCount/totalQuestions)*100)

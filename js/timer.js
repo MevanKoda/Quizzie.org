@@ -1,10 +1,13 @@
 let time = null
 let intervalId = null
 
+
+
 export function timer(duration,saveResult) {
     time = duration * 60
     const totalTime = time
     const timerEl = document.getElementById('timerEl')
+
 
     intervalId = setInterval(() => {
         let minutes = Math.floor(time / 60)
@@ -20,6 +23,7 @@ export function timer(duration,saveResult) {
         } else if (time <= -1) {
             clearInterval(intervalId)
             setTimeout(() =>{
+                quizOverSoundPlayer.play()
                 saveResult()
                 window.location.href = '../pages/result.html'
             }, 2000)
