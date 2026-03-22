@@ -6,25 +6,23 @@ let filteredQuiz;
 let totalQuestions = null
 let correctCount = 0
 let wrongCount = 0
+let progress = 0
 
 const quizHeader = document.getElementById('quiz-header')
 const quizBox = document.getElementById('quiz-box')
+const progressBar = document.getElementById('progressBar')
+
+
+
 
 //Create QuizBox element in the page
 function createQuizBox(filteredData,count, category){
     
 
-    const quizTitle = document.createElement('h1')
-    quizTitle.classList='quiz-title'
+    const quizTitle = document.getElementById('quizTitle')
     quizTitle.textContent = `${category} Quiz✍🏻`
 
-    const timerEl = document.createElement('h3')
-    timerEl.id='timerEl'
-    timerEl.classList='timer-element'
-
-    //Append quizTitle and timerEl to quizHeader
-    quizHeader.append(quizTitle,timerEl)
-
+    const timerEl = document.getElementById('timerEl')
 
     
 
@@ -49,6 +47,11 @@ function createQuizBox(filteredData,count, category){
                 const allButtons = this.parentElement.querySelectorAll('button')
                 const ansExplanation = document.createElement('h1')
                 ansExplanation.classList = "ansExplanation"
+
+                //Track down progress of the quiz
+                progress++
+                progressBar.value=progress
+
 
                 allButtons.forEach(btn=>{
                     btn.disabled = true
@@ -126,6 +129,7 @@ async function loadQuiz(){
     const category = params.get('category')
     totalQuestions = params.get('count')
     const duration = params.get('duration')
+    progressBar.max = totalQuestions
     await fetchQuiz(category,totalQuestions)
     timer(duration, saveResult)
 
