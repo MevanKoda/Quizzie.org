@@ -2,7 +2,23 @@
     margin:0;
 }
 
+
+:root{
+    --bg:white;
+    --card-bg:rgb(239, 239, 240);
+}
+
+:root.dark{
+    --bg:rgb(23, 23, 23);
+    --card-bg:rgb(123, 123, 123);
+}
+
+body{
+    background-color:var(--bg)
+}
+
 .wrapper{
+    
     display:flex;
     justify-content:center;
     align-items:center;
@@ -11,12 +27,28 @@
     
 }
 
+.toggle-btn{
+    position:absolute;
+    margin:10px;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    cursor:pointer;
+    background-color:blue;
+    color:white;
+    border:none
+}
+
+#icon{
+    font-size:30px
+}
+
 .customize-section{
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    background-color:rgb(239, 239, 240);
+    background-color:var(--card-bg);
     padding:60px;
     border-radius:20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -166,7 +198,7 @@ progress{
 .quiz-element{
     width:45%;
     padding:40px;
-    background-color:rgb(238, 238, 238);
+    background-color:var(--card-bg);
     border-radius:20px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top:50px;
@@ -205,7 +237,7 @@ progress{
 
 .result-box{
     text-align:center;
-    background-color:rgb(239, 239, 240);
+    background-color:var(--card-bg);
     padding:60px;
     border-radius:20px;
     font-family:Arial, Helvetica, sans-serif;
