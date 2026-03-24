@@ -2,7 +2,42 @@
     margin:0;
 }
 
+
+:root{
+    --customize-header:rgb(22, 22, 135);
+    --customize-label:rgb(39, 39, 43);
+    --quiz-title:rgb(63, 63, 63);
+    --quiz-card:rgb(239, 239, 240);
+    --answer-color:rgb(63, 63, 63);
+    --answerEl-bg:rgb(249, 249, 249);
+
+    --bg:white;
+    --card-bg:rgb(239, 239, 240);
+    --result-text:black;
+    --result-message:blue;
+}
+
+:root.dark{
+    --customize-header:rgb(3, 71, 243);
+    --customize-label:rgb(255, 255, 255);
+    --quiz-title:rgb(255, 255, 255)  ;
+    --quiz-card:rgb(46, 44, 44);
+    --answer-color:rgb(255, 255, 255);
+    --answerEl-bg:rgb(38, 37, 37);
+    --bg:rgb(61, 61, 61);
+    --card-bg:rgba(43, 43, 43, 0.422);
+    --result-text:rgb(255, 255, 255);
+    --result-message:rgb(117, 157, 221);
+}
+
+body{
+    background-color:var(--bg);
+    transition: background-color 500ms ease;
+}
+
+
 .wrapper{
+    
     display:flex;
     justify-content:center;
     align-items:center;
@@ -11,12 +46,28 @@
     
 }
 
+.toggle-btn{
+    position:absolute;
+    margin:10px;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    cursor:pointer;
+    background-color:blue;
+    color:white;
+    border:none
+}
+
+#icon{
+    font-size:30px
+}
+
 .customize-section{
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    background-color:rgb(239, 239, 240);
+    background-color:var(--card-bg);
     padding:60px;
     border-radius:20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +75,7 @@
 
 .customize-section h1,h3{
     margin:10px;
-    color:rgb(22, 22, 135)
+    color:var(--customize-header);
 }
 
 .customize-section div{
@@ -41,7 +92,7 @@ label{
     font-size: 20px;
     font-weight:bold;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(77, 77, 80)
+    color:var(--customize-label);
 }
 
 select, input {
@@ -160,17 +211,17 @@ progress{
     flex-direction:column;
     padding-top:150px;
     z-index:0;
-
     
 }
 .quiz-element{
     width:45%;
     padding:40px;
-    background-color:rgb(238, 238, 238);
+    background-color:var(--quiz-card);
     border-radius:20px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top:50px;
-    color:rgb(63, 63, 63)
+    color:var(--quiz-title);
+    transition:background-color 500ms ease;
 
 }
 
@@ -198,22 +249,29 @@ progress{
 .ansExplanation{
     margin-top:20px;
     font-size:15px;
-    background-color:white;
-    padding:10px;
-    border-radius:5px
+    background-color:var(--answerEl-bg);
+    padding:15px;
+    border-radius:5px;
+    color:var(--answer-color)
+
 }
 
 .result-box{
     text-align:center;
-    background-color:rgb(239, 239, 240);
+    background-color:var(--card-bg);
     padding:60px;
     border-radius:20px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
 }
 
-.result-box h3{
-    margin-top:20px
+.result-score{
+    color:var(--result-text);
+}
+
+.message-text{
+    margin-top:20px;
+    color:var(--result-message)
 }
 
 

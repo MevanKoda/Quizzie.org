@@ -4,20 +4,27 @@
     <title>Quiz Page</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/quiz.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/ec48d5b588.js" crossorigin="anonymous"></script>
+
+    <script src="../js/darkmode.js"></script>
+
+
 
 </head>
 
 <body>
 
+
     <div class="quiz-header" id="quiz-header">
+            <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-moon" id="icon"></i></button>
+
+
         <div class="header-top">
-            <h3 class="quiz-title" id="quizTitle">
-                </h1>
-                <div>
 
-                </div>
+            <h3 class="quiz-title" id="quizTitle"></h3>
 
-                <h3 class="timer-element" id="timerEl"></h3>
+            <h3 class="timer-element" id="timerEl"></h3>
+
         </div>
 
         <div class="progress-section">
@@ -33,8 +40,10 @@
     <audio src="../soundEffects/QuizStart.mp3" id="quizStartSound"></audio>
     <audio src="../soundEffects/CorrectAns.mp3" id="correctSoundPlayer"></audio>
     <audio src="../soundEffects/WrongAns.mp3" id="wrongSoundPlayer"></audio>
-    
 
+
+
+    <script src="../js/toggleFunction.js"></script>
 
 </body>
 

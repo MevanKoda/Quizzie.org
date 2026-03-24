@@ -2,13 +2,23 @@
     <head>
         <title>Result Page</title>
         <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/ec48d5b588.js" crossorigin="anonymous"></script>
+        <script src="../js/darkmode.js"></script>
+
+
     </head>
 
     <body>
+        <div class="header">
+             <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-circle-half-stroke" id="icon"></i></button>
+        </div>
+
+
+
         <div class="wrapper">
             <div class="result-box" id="resultBox">
-                <h2 id="resultEl"></h2>
-                <h3 id="messageEl"></h3>
+                <h2 id="resultEl" class="result-score"></h2>
+                <h3 id="messageEl" class="message-text"></h3>
 
                 <div class="result-button-container">
                     <button onclick="restart('retry')" class="retry-btn">Retry</button>
@@ -20,6 +30,9 @@
         <audio src="../soundEffects/QuizOver1.mp3" id="quizOverSoundPlayer"></audio>
 
         <script src="../js/results.js"></script>
+
+
+         <script src="../js/toggleFunction.js"></script>
     </body>
 
 
