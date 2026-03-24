@@ -6,6 +6,8 @@
     <script src="../js/quiz.js" type="module"></script>
     <script src="https://kit.fontawesome.com/ec48d5b588.js" crossorigin="anonymous"></script>
 
+    <script src="../js/darkmode.js"></script>
+
 
 
 </head>
@@ -14,7 +16,7 @@
 
 
     <div class="quiz-header" id="quiz-header">
-            <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-circle-half-stroke" id="icon"></i></button>
+            <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-moon" id="icon"></i></button>
 
 
         <div class="header-top">
@@ -40,7 +42,21 @@
     <audio src="../soundEffects/WrongAns.mp3" id="wrongSoundPlayer"></audio>
 
 
-    <script src="../js/darkmode.js"></script>
+
+     <script>
+      const toggleBtn = document.getElementById('toggleBtn')
+      const modeIcon = document.getElementById('icon')  
+
+      
+toggleBtn.addEventListener('click',()=>{
+    document.documentElement.classList.toggle('dark')
+
+    const isDark = document.documentElement.classList.contains('dark');
+    localStorage.setItem('theme', isDark? 'dark':'light')
+    modeIcon.className = isDark? 'fa-solid fa-moon':'fa-solid fa-sun';
+})
+
+    </script>
 
 </body>
 

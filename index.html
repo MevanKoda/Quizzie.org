@@ -8,10 +8,8 @@
   </head>
 
   <body>
-    <div class="header">
-      <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-circle-half-stroke" id="icon"></i>
-</button>
-    </div>
+      <button class="toggle-btn" id="toggleBtn"><i class="fa-solid fa-sun" id="icon"></i></button>
+
 
 
     <div class="wrapper">
@@ -57,5 +55,20 @@
     <audio src="/soundEffects/ErrorSound.mp3" id="errorSound"></audio>
     <script src="./js/app.js"></script>
 
+
+    <script>
+      const toggleBtn = document.getElementById('toggleBtn')
+      const modeIcon = document.getElementById('icon')  
+
+      
+toggleBtn.addEventListener('click',()=>{
+    document.documentElement.classList.toggle('dark')
+
+    const isDark = document.documentElement.classList.contains('dark');
+    localStorage.setItem('theme', isDark? 'dark':'light')
+    modeIcon.className = isDark? 'fa-solid fa-moon':'fa-solid fa-sun';
+})
+
+    </script>
   </body>
 </html>

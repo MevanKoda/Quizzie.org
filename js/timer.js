@@ -23,7 +23,6 @@ export function timer(duration,saveResult) {
         } else if (time <= -1) {
             clearInterval(intervalId)
             setTimeout(() =>{
-                quizOverSoundPlayer.play()
                 saveResult()
                 window.location.href = '../pages/result.html'
             }, 2000)
