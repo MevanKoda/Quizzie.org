@@ -18,8 +18,10 @@
 }
 
 body{
-    background-color:var(--bg)
+    background-color:var(--bg);
+    transition: background-color 500ms ease;
 }
+
 
 .wrapper{
     
